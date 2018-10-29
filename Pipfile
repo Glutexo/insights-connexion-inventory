@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+insights-connexion = {editable = true, git = "git://github.com/RedHatInsights/insights_connexion.git"}
+
+[requires]
+python_version = "3.7"
